@@ -18,6 +18,7 @@ class Contacts(models.Model):
         max_length=150,
         verbose_name="Страна",
         help_text="Укажите старну",
+        db_index=True,
         **NULLABLE,
     )
 
